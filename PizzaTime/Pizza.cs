@@ -8,6 +8,8 @@ namespace PizzaTime
 {
 	class Pizza
 	{
+		//test commit
+
 		/*
 		toppings(string) : bevat beschrijving van wat er op ligt, bv.ananas, pepperoni, etc.
 diameter(integer): doorsnede van de pizza in cm.
