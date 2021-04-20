@@ -17,12 +17,33 @@ namespace Bookmark_Manager
 				Console.WriteLine("Geef url");
 				webSites[i].URL = Console.ReadLine();
 			}
-			for (int i = 0; i < webSites.Length; i++)
+
+			do
 			{
-				Console.WriteLine($"{i + 1} { webSites[i].Naam}");
-				Console.WriteLine($"{i + 1} { webSites[i].URL}");
-			}
-			webSites[InputCheckInt("Geef nummber welke site wil je opslaan?")].WriteTXTStreamWriter();
+				Console.Clear();
+				for (int i = 0; i < webSites.Length; i++)
+				{
+					Console.WriteLine($"{i + 1} { webSites[i].Naam} : { webSites[i].URL}");
+				}
+
+				Console.WriteLine("1 wil je een website aanpassen?\n2 wil je een website openen?");
+				string choice = Console.ReadLine();
+
+				if (choice == "1")
+				{
+					int input = InputCheckInt("Geef nr welke je wil wijzigen.");
+					webSites[input] = new BookMark();
+					Console.WriteLine("Geef website naam");
+					webSites[input].Naam = Console.ReadLine();
+
+					Console.WriteLine("Geef url");
+					webSites[input].URL = Console.ReadLine();
+				}
+				if (choice == "2")
+				{
+					webSites[InputCheckInt("Geef nummber welke site wil je openen?")].OpenSite();
+				}
+			} while (true);
 		}
 		static int InputCheckInt(string question)
 		{

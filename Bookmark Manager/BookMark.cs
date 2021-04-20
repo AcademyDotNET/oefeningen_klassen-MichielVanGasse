@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.IO;
+using System.Diagnostics;
 
 namespace Bookmark_Manager
 {
@@ -11,16 +12,9 @@ namespace Bookmark_Manager
 	{
         public string Naam { get; set; }
         public string URL { get; set; }
-        public void OpenSite() // does not work
+        public void OpenSite()
         {
-           // Process.Start("chrome.exe", URL);  //Voeg bovenaan using System.Diagnostics; toe
-        }
-        public void WriteTXTStreamWriter()
-        {
-            using (StreamWriter streamWriter = new StreamWriter($@"D:\{Naam}.txt"))
-            {
-                streamWriter.WriteLine(URL);
-            }
+            Process.Start(@"c:\Program Files (x86)\Google\Chrome\Application\chrome.exe", URL);
         }
     }
 }
