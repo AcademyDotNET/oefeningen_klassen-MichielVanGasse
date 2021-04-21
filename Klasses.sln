@@ -27,13 +27,21 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pokémon Tester", "Pokémon
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pokémon-battler", "Pokémon-battler\Pokémon-battler.csproj", "{D8697755-BEB0-4DF1-80F8-FF5762BC58A4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prijzen met foreach", "Prijzen met foreach\Prijzen met foreach.csproj", "{4523F788-3D03-4997-8CD8-E8C374564041}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Prijzen met foreach", "Prijzen met foreach\Prijzen met foreach.csproj", "{4523F788-3D03-4997-8CD8-E8C374564041}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Speelkaarten", "Speelkaarten\Speelkaarten.csproj", "{B8130460-E25C-4FAC-95F4-7514B3B32935}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Speelkaarten", "Speelkaarten\Speelkaarten.csproj", "{B8130460-E25C-4FAC-95F4-7514B3B32935}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Student Organizer", "Student Organizer\Student Organizer.csproj", "{C1123C9A-A238-4557-A872-3760823D5754}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Student Organizer", "Student Organizer\Student Organizer.csproj", "{C1123C9A-A238-4557-A872-3760823D5754}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bookmark Manager", "Bookmark Manager\Bookmark Manager.csproj", "{723F6808-D4BF-4AAB-811D-810BD951B322}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bookmark Manager", "Bookmark Manager\Bookmark Manager.csproj", "{723F6808-D4BF-4AAB-811D-810BD951B322}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Digitale kluis", "Digitale kluis\Digitale kluis.csproj", "{CF7FB81B-D286-4D2F-8F57-0E5A8FB7BE8E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Meetlat constructor", "Meetlat constructor\Meetlat constructor.csproj", "{FF9E2AB7-B8CA-4D37-9C13-398F02C20678}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pokemon deel2", "Pokemon extra\Pokemon deel2.csproj", "{4F60D10F-E092-441B-81DC-8A9F4F30288A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sport simulator", "Sport simulator\Sport simulator.csproj", "{23CA6BAF-A7DC-49E0-8AFB-15B9F0A79089}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -105,6 +113,22 @@ Global
 		{723F6808-D4BF-4AAB-811D-810BD951B322}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{723F6808-D4BF-4AAB-811D-810BD951B322}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{723F6808-D4BF-4AAB-811D-810BD951B322}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF7FB81B-D286-4D2F-8F57-0E5A8FB7BE8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF7FB81B-D286-4D2F-8F57-0E5A8FB7BE8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF7FB81B-D286-4D2F-8F57-0E5A8FB7BE8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF7FB81B-D286-4D2F-8F57-0E5A8FB7BE8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF9E2AB7-B8CA-4D37-9C13-398F02C20678}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF9E2AB7-B8CA-4D37-9C13-398F02C20678}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF9E2AB7-B8CA-4D37-9C13-398F02C20678}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF9E2AB7-B8CA-4D37-9C13-398F02C20678}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F60D10F-E092-441B-81DC-8A9F4F30288A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F60D10F-E092-441B-81DC-8A9F4F30288A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F60D10F-E092-441B-81DC-8A9F4F30288A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F60D10F-E092-441B-81DC-8A9F4F30288A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23CA6BAF-A7DC-49E0-8AFB-15B9F0A79089}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23CA6BAF-A7DC-49E0-8AFB-15B9F0A79089}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23CA6BAF-A7DC-49E0-8AFB-15B9F0A79089}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23CA6BAF-A7DC-49E0-8AFB-15B9F0A79089}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
