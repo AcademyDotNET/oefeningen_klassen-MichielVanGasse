@@ -12,9 +12,13 @@ namespace Bookmark_Manager
 	{
         public string Naam { get; set; }
         public string URL { get; set; }
-        public void OpenSite()
+        public virtual void OpenSite()
         {
             Process.Start(@"c:\Program Files (x86)\Google\Chrome\Application\chrome.exe", URL);
         }
+        public override string ToString()
+		{
+            return $"{Naam} {URL}";
+		}
     }
 }

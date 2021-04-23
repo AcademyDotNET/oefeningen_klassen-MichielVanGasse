@@ -13,5 +13,10 @@ namespace Bookmark_Manager
 		{
 			Process.Start(@"c:\Program Files (x86)\Google\Chrome\Application\chrome.exe","-incognito "+URL);
 		}
+		public override string ToString()
+		{
+			return base.ToString() + " ---HIDDEN---";
+
+		}
 	}
 }

@@ -6,11 +6,11 @@ namespace Bookmark_Manager
 	{
 		static void Main(string[] args)
 		{
-			BookMark[] webSites = new BookMark[5];
+			HiddenBookmarks[] webSites = new HiddenBookmarks[1];
 
 			for (int i = 0; i < webSites.Length; i++)
 			{
-				webSites[i] = new BookMark();
+				webSites[i] = new HiddenBookmarks();
 				Console.WriteLine("Geef website naam");
 				webSites[i].Naam = Console.ReadLine();
 
@@ -26,13 +26,13 @@ namespace Bookmark_Manager
 					Console.WriteLine($"{i + 1} { webSites[i].Naam} : { webSites[i].URL}");
 				}
 
-				Console.WriteLine("1 wil je een website aanpassen?\n2 wil je een website openen?");
+				Console.WriteLine("1 wil je een website aanpassen?\n2 wil je een website openen?\n3 wil je een website weergeven?");
 				string choice = Console.ReadLine();
 
 				if (choice == "1")
 				{
 					int input = InputCheckInt("Geef nr welke je wil wijzigen.");
-					webSites[input] = new BookMark();
+					webSites[input] = new HiddenBookmarks();
 					Console.WriteLine("Geef website naam");
 					webSites[input].Naam = Console.ReadLine();
 
@@ -42,6 +42,18 @@ namespace Bookmark_Manager
 				if (choice == "2")
 				{
 					webSites[InputCheckInt("Geef nummber welke site wil je openen?")].OpenSite();
+				}
+				if (choice == "3")
+				{
+					Console.WriteLine("hi");
+					for (int i = 0; i < webSites.Length; i++)
+					{
+						Console.Clear();
+						Console.WriteLine($"{webSites[i]}");
+						Console.WriteLine("enter to get menu");
+						Console.ReadLine();
+					}
+
 				}
 			} while (true);
 		}
