@@ -29,7 +29,11 @@ namespace Book
 			coffeeTableBook.Title = "how to sing";
 			textBook.Title = "how to program";
 
-			if(book.Equals(textBook))
+			Book testbook = Book.TelOp(coffeeTableBook, book);
+
+			Console.WriteLine($"{testbook.ISBN} and {testbook} are equal");
+
+			if (book.Equals(textBook))
 			{
 				Console.WriteLine($"{textBook} and {book} are equal");
 			}
