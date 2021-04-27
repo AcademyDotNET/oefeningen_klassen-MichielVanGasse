@@ -59,15 +59,23 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Geometric figures", "Geomet
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dierentuin", "Dierentuin\Dierentuin.csproj", "{73B3AE02-D7EF-4AAA-B80B-424F53FB7C09}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Uml naar code", "Uml naar code\Uml naar code.csproj", "{B68452A5-A7C7-478E-BA7A-499AE9B3CDBD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Uml naar code", "Uml naar code\Uml naar code.csproj", "{B68452A5-A7C7-478E-BA7A-499AE9B3CDBD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Politiek", "Politiek\Politiek.csproj", "{918813A4-3C6C-4BAD-86C3-15590C8A7937}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Politiek", "Politiek\Politiek.csproj", "{918813A4-3C6C-4BAD-86C3-15590C8A7937}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Moederbord", "Moederbord\Moederbord.csproj", "{20D7CB59-3E24-434D-8CF2-B712426BF9F8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Moederbord", "Moederbord\Moederbord.csproj", "{20D7CB59-3E24-434D-8CF2-B712426BF9F8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Een eigen huis", "Een eigen huis\Een eigen huis.csproj", "{63C69BC0-AB9B-4F49-A6B4-2C021904CE8C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Een eigen huis", "Een eigen huis\Een eigen huis.csproj", "{63C69BC0-AB9B-4F49-A6B4-2C021904CE8C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Textbased RPG", "Textbased RPG\Textbased RPG.csproj", "{6ADEADA5-E3D4-44BC-8434-07611898746D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Textbased RPG", "Textbased RPG\Textbased RPG.csproj", "{6ADEADA5-E3D4-44BC-8434-07611898746D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dierentuin advanced", "Dierentuin advanced\Dierentuin advanced.csproj", "{87B17252-BCD5-4813-81CB-C1CE83589E4E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pokemons vergelijken", "Pokemons vergelijken\Pokemons vergelijken.csproj", "{CDE03FFE-D3AB-4408-82B5-A287EFB46896}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Magic", "Magic\Magic.csproj", "{43512136-5005-4ED0-A7E8-7A4F70515793}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mapmaker", "Mapmaker\Mapmaker.csproj", "{81FAE44A-BF7B-4EDC-B0D3-CCEF610D0222}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -207,6 +215,22 @@ Global
 		{6ADEADA5-E3D4-44BC-8434-07611898746D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6ADEADA5-E3D4-44BC-8434-07611898746D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6ADEADA5-E3D4-44BC-8434-07611898746D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87B17252-BCD5-4813-81CB-C1CE83589E4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87B17252-BCD5-4813-81CB-C1CE83589E4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87B17252-BCD5-4813-81CB-C1CE83589E4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87B17252-BCD5-4813-81CB-C1CE83589E4E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDE03FFE-D3AB-4408-82B5-A287EFB46896}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDE03FFE-D3AB-4408-82B5-A287EFB46896}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDE03FFE-D3AB-4408-82B5-A287EFB46896}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDE03FFE-D3AB-4408-82B5-A287EFB46896}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43512136-5005-4ED0-A7E8-7A4F70515793}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43512136-5005-4ED0-A7E8-7A4F70515793}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43512136-5005-4ED0-A7E8-7A4F70515793}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43512136-5005-4ED0-A7E8-7A4F70515793}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81FAE44A-BF7B-4EDC-B0D3-CCEF610D0222}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81FAE44A-BF7B-4EDC-B0D3-CCEF610D0222}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81FAE44A-BF7B-4EDC-B0D3-CCEF610D0222}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81FAE44A-BF7B-4EDC-B0D3-CCEF610D0222}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
