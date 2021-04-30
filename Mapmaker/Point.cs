@@ -26,5 +26,6 @@ namespace Mapmaker
             get { return y; }
             set { y = value; }
         }
+        
     }
 }

@@ -4,10 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Magic
+namespace Game
 {
-	class SpellCard : Card
+	interface IDestroyer
 	{
-		//public SpellEffect effect;
+		public void Shoot();
 	}
 }

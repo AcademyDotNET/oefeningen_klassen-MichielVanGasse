@@ -4,10 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Magic
+namespace Mapmaker
 {
-	class SpellCard : Card
+	interface IComposite
 	{
-		//public SpellEffect effect;
+		void UpdateElements(Point offset);
 	}
 }

@@ -7,9 +7,17 @@ namespace Mapmaker
 	{
 		static void Main(string[] args)
 		{
+            //List<MapObject> allObjects = new List<MapObject>();
+            //allObjects.Add(new SalonElement(new Point(5, 5)));
+            //allObjects[0].Paint();
+
+            //Verplaats salon
+            //allObjects[0].Location = new Point(10, 10);
+            //allObjects[0].Paint();
+
             //DrawSalonElement();
             //Test();
-            DrawMenu();
+             DrawMenu();
         }
 		public static void Test()
 		{

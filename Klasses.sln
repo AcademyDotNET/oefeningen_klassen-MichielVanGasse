@@ -69,13 +69,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Een eigen huis", "Een eigen
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Textbased RPG", "Textbased RPG\Textbased RPG.csproj", "{6ADEADA5-E3D4-44BC-8434-07611898746D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dierentuin advanced", "Dierentuin advanced\Dierentuin advanced.csproj", "{87B17252-BCD5-4813-81CB-C1CE83589E4E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dierentuin advanced", "Dierentuin advanced\Dierentuin advanced.csproj", "{87B17252-BCD5-4813-81CB-C1CE83589E4E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pokemons vergelijken", "Pokemons vergelijken\Pokemons vergelijken.csproj", "{CDE03FFE-D3AB-4408-82B5-A287EFB46896}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pokemons vergelijken", "Pokemons vergelijken\Pokemons vergelijken.csproj", "{CDE03FFE-D3AB-4408-82B5-A287EFB46896}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Magic", "Magic\Magic.csproj", "{43512136-5005-4ED0-A7E8-7A4F70515793}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Magic", "Magic\Magic.csproj", "{43512136-5005-4ED0-A7E8-7A4F70515793}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mapmaker", "Mapmaker\Mapmaker.csproj", "{81FAE44A-BF7B-4EDC-B0D3-CCEF610D0222}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mapmaker", "Mapmaker\Mapmaker.csproj", "{81FAE44A-BF7B-4EDC-B0D3-CCEF610D0222}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Figures with interfaces", "Figures with interfaces\Figures with interfaces.csproj", "{C4E7FDD3-E7B5-429D-9D05-9A6DDB6DFC3C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Game", "Game\Game.csproj", "{27AC386E-4D90-494C-A01E-B25626A81D6F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -231,6 +235,14 @@ Global
 		{81FAE44A-BF7B-4EDC-B0D3-CCEF610D0222}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{81FAE44A-BF7B-4EDC-B0D3-CCEF610D0222}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{81FAE44A-BF7B-4EDC-B0D3-CCEF610D0222}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4E7FDD3-E7B5-429D-9D05-9A6DDB6DFC3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4E7FDD3-E7B5-429D-9D05-9A6DDB6DFC3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4E7FDD3-E7B5-429D-9D05-9A6DDB6DFC3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4E7FDD3-E7B5-429D-9D05-9A6DDB6DFC3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27AC386E-4D90-494C-A01E-B25626A81D6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27AC386E-4D90-494C-A01E-B25626A81D6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27AC386E-4D90-494C-A01E-B25626A81D6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27AC386E-4D90-494C-A01E-B25626A81D6F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

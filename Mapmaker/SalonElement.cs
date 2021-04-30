@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Mapmaker
 {
-    class SalonElement : MapObject
+    class SalonElement : MapObject, IComposite
     {
         private List<MapObject> elementen = new List<MapObject>();
 
@@ -26,6 +26,16 @@ namespace Mapmaker
                 elementen[i].Paint();
             }
 
+        }
+        public void UpdateElements(Point offset)
+        {
+            for (int i = 0; i < elementen.Count; i++)
+            {
+                Point elementLoc = elementen[i].Location;
+                elementLoc.X += offset.X;
+                elementLoc.Y += offset.Y;
+                elementen[i].Location = elementLoc;
+            }
         }
     }
 }
