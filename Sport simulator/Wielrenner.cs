@@ -7,15 +7,22 @@ using System.Threading.Tasks;
 namespace Sport_simulator
 {
 	enum Reeks { Pro, Amateur}
-	class Wielrenner
+	class Wielrenner: IAthlete
 	{
 		//private string spelerNaam = "Thomas De Gent";
 		private int rugNummer = 69;
 		private bool isVluchter = true;
 		private bool isInLotto = true;
 		private Reeks reeks;
-
 		public string SpelerNaam { get; set; } = "Thomas De Gent";
+		public Wielrenner()
+		{
+
+		}
+		public Wielrenner(string _spelerNaam, int _rugNummer, bool _isVluchter, bool _isInLotto, Reeks _reeks)
+		{
+			StelIn(_spelerNaam, _rugNummer, _isVluchter, _isInLotto, _reeks);
+		}
 
 		public void Attack()
 		{

@@ -4,15 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Ziekenhuis
+namespace Student_Organizer
 {
-	
-	class VerzekerdePatient : Patient
+	class ConsoleInput: IInput
 	{
-		public override void BerekenKost()
+		public string Input()
 		{
-			base.BerekenKost();
-			Kosten *= 0.9;
+			return Console.ReadLine();
 		}
 	}
 }

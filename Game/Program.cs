@@ -29,7 +29,6 @@ namespace Game
 
 			do
 			{
-				Console.WriteLine(mapElements[0]);
 				DrawArray(playFieldBackground);
 				DrawArray(playField);
 				player.ExecutePlayerAction(playField);

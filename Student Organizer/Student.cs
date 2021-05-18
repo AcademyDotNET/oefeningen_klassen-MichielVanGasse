@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace Student_Organizer
 {
 	public enum Klassen { EA1, EA2, EA3, EA4 }
-	class Student
+	class Student: IStudent
 	{
 		public Klassen Klas { get; set; }
 		public string Naam { get; set; }

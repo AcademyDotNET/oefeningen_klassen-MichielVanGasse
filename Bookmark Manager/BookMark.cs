@@ -14,8 +14,18 @@ namespace Bookmark_Manager
         public string URL { get; set; }
         public virtual void OpenSite()
         {
-            Process.Start(@"c:\Program Files (x86)\Google\Chrome\Application\chrome.exe", URL);
-        }
+			try
+			{
+				Process.Start(@"c:\Program Files (x86)\Google\Chrome\Application\chrome.exe", URL);
+			}
+			catch (Exception e)
+			{
+				Console.WriteLine("Exception: Could find chrome.exe");
+				Debug.WriteLine($"Message: { e.Message}");
+				Debug.WriteLine($"Targetsite: {e.TargetSite}");
+				Debug.WriteLine($"StackTrace: {e.StackTrace}");
+			}
+		}
         public override string ToString()
 		{
             return $"{Naam} {URL}";

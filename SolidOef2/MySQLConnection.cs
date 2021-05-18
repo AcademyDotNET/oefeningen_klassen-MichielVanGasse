@@ -4,15 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Ziekenhuis
+namespace SolidOef2
 {
-	
-	class VerzekerdePatient : Patient
+	class MySQLConnection : IConnection
 	{
-		public override void BerekenKost()
+		public void Connect()
 		{
-			base.BerekenKost();
-			Kosten *= 0.9;
+			// code to connect to my SQL
 		}
 	}
 }

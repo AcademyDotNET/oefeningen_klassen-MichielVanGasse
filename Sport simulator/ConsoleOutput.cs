@@ -4,15 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Ziekenhuis
+namespace Sport_simulator
 {
-	
-	class VerzekerdePatient : Patient
+	class ConsoleOutput : IOutput
 	{
-		public override void BerekenKost()
+		public void Log(string message)
 		{
-			base.BerekenKost();
-			Kosten *= 0.9;
+			Console.WriteLine(message);
 		}
 	}
 }

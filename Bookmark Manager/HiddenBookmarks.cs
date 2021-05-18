@@ -11,7 +11,17 @@ namespace Bookmark_Manager
 	{
 		public override void OpenSite()
 		{
-			Process.Start(@"c:\Program Files (x86)\Google\Chrome\Application\chrome.exe","-incognito "+URL);
+			try
+			{
+				Process.Start(@"c:\Program Files (x86)\Google\Chrome\Application\chrome.exe", "-incognito " + URL);
+			}
+			catch (Exception e)
+			{
+				Console.WriteLine("Exception: Could find chrome.exe");
+				Debug.WriteLine($"Message: { e.Message}");
+				Debug.WriteLine($"Targetsite: {e.TargetSite}");
+				Debug.WriteLine($"StackTrace: {e.StackTrace}");
+			}
 		}
 		public override string ToString()
 		{
